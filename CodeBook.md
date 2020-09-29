@@ -47,7 +47,7 @@ The run_analysis.R script performs the data preparation and then followed by the
 				Entire numbers in code column of the req_meas replaced with corresponding activity taken from second column of the activities variable
 
 6) Appropriately labels the data set with descriptive variable names
-				code column in TidyData renamed into activities
+				code column in req_meas renamed into activities
 				All Acc in column’s name replaced by Accelerometer
 				All Gyro in column’s name replaced by Gyroscope
 				All BodyBody in column’s name replaced by Body
@@ -58,3 +58,5 @@ The run_analysis.R script performs the data preparation and then followed by the
 7) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 			final_tidy_data (180 rows, 88 columns) is created by sumarizing req_meas taking the means of each variable for each activity and each subject, after groupped by subject and activity.
 8) Export final_tidy_data into FinalData.txt file.
+
+
